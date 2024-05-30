@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Drag & Drop mang</title>
+    <title>VÄRVIDE MÄNG</title>
 </head>
+
 <body>
     <h1 class="abc">VÄRVIDE MÄNG</h1>
     <h2>Lohista värvide nimed õigedesse kastidesse</h2>
     <h1 id="score">0/10</h1>
-    
     <div id="game-area">
-        <div id="choices">
-            <h4 class="color-choice" data-color="Green">Roheline</h4>
-            <h4 class="color-choice" data-color="Blue">Sinine</h4>
-            <h4 class="color-choice" data-color="Red">Punane</h4>
-            <h4 class="color-choice" data-color="Black">Must</h4>
-            <h4 class="color-choice" data-color="White">Valge</h4>
-            <h4 class="color-choice" data-color="Yellow">Kollane</h4>
-            <h4 class="color-choice" data-color="Orange">Oranz</h4>
-            <h4 class="color-choice" data-color="Pink">Roosa</h4>
-            <h4 class="color-choice" data-color="Purple">Lilla</h4>
-            <h4 class="color-choice" data-color="Cyan">Helesinine</h4>
-        </div>
-        
-        <div id="boxes" class="drop-area">
-            
-        </div>
+        <div id="choices"></div>
+        <div id="boxes" class="drop-area"></div>
     </div>
-
+    <div id="level-popup" class="hidden">
+        <h2>Level 1 Tehtud!</h2>
+        <button id="start-level-2">Alusta Level FINAAL</button>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
